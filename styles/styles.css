@@ -1,0 +1,155 @@
+a {
+  color: #CD104D;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*Edge agrega un marco de 8 pixeles por defecto.*/
+body {
+  margin: auto;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  /*Centra elementos inline-block y full block*/
+  /*Otra forma es utilizar Margin*/
+  /*margin: 0 auto*/
+}
+
+h1 {
+  font-family: 'Charmonman', cursive;
+  font-size: 5.625rem;
+  /*1em = 16px = 100%*/
+  /*rem ignora cualquier otro cambio*/
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h2,
+h4 {
+  color: #E14D2A;
+}
+
+h3 {
+  color: #FF884B;
+}
+
+h4 {
+  font-size: 1.5rem
+}
+
+div.bottom-container {
+  background-color: #ffbd86;
+  padding: 25px 0 25px;
+}
+
+div.middle-container {
+  padding-top: 50px;
+}
+
+div.profile {
+  margin: auto auto;
+  width: 40%;
+}
+
+div.profile img {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+div.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+div.top-container {
+  background-color: #FF884B;
+  color: #eeee;
+  position: relative;
+  padding-top: 150px;
+}
+
+div p {
+  color: black;
+  line-height: 2;
+}
+
+hr {
+  border: dotted 10px;
+  border-bottom: none;
+  border-color: #ebebeb;
+  margin: 100px 48%;
+}
+
+img.f-right {
+  float: right;
+  margin-left: 30px;
+}
+
+img.f-left {
+  float: left;
+  margin-right: 30px;
+}
+
+img.skill-logo {
+  height: 170px;
+  width: 170px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.btn {
+  background: linear-gradient(90deg, rgba(255, 189, 156, 1) 0%, rgba(255, 136, 75, 1) 35%, rgba(126, 12, 49, 1) 100%);
+  background-color: rgb(255, 189, 156);
+  background-size: 150% 150%;
+  border-radius: 8px;
+  color: #ffdfcf;
+  display: block;
+  font-weight: bold;
+  margin: 10px auto;
+  padding: 10px;
+  transition: 1s;
+  width: 150px;
+}
+
+.btn:hover {
+  background-position-x: 100%;
+  color: white;
+}
+
+.copyright {
+  border-radius: 8px;
+  color: white;
+  margin: 5px 400px;
+  transition: .5s;
+}
+
+.copyright:hover {
+  background-color: crimson;
+}
+
+.footer-link {
+  color: #CD104D;
+  margin: auto 20px;
+  transition: 0.5s;
+}
+
+.footer-link:hover {
+  transition: 0.5s;
+  color: #f2892f;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
